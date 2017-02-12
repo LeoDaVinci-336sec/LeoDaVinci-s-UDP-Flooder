@@ -5,8 +5,8 @@ import socket
 import random
  
 
-client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #okay so here I create the server, when i say "SOCK_DGRAM" it means it's a UDP type program
-bytes = random._urandom(1024) # 1024 representes one byte to the server
+client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+bytes = random._urandom(1024)
 
 def pres():
     print
