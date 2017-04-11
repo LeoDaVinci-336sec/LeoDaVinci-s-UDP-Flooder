@@ -5,6 +5,6 @@ must have python 2 installed
 tested on kali linux and windows
 
 usage
-cd <path to code> 
+cd path to code
 python UDP_DOS.py
 follow instructions from there
